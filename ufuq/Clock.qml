@@ -1,11 +1,10 @@
 import QtQuick
-import HikmahUI
+import "hikmahui"
+import "hikmahui/Theme.qml"
 
-// Clock module: a pill. Format read from Hikmah config later; for M01 hard-coded.
 Rectangle {
     id: root
-
-    implicitWidth: timeText.implicitWidth + 28
+    implicitWidth: timeText.implicitWidth + dateText.implicitWidth + 44
     implicitHeight: 32
     radius: height / 2
     color: Theme.surfaceContainerHigh
@@ -24,7 +23,6 @@ Rectangle {
     Row {
         anchors.centerIn: parent
         spacing: 8
-
         LText {
             id: timeText
             text: root.timeText
@@ -33,6 +31,7 @@ Rectangle {
             font.weight: Font.Medium
         }
         LText {
+            id: dateText
             text: root.dateText
             color: Theme.onSurfaceVariant
             font.pixelSize: 12

@@ -1,6 +1,5 @@
 import QtQuick
-import QtQuick.Controls.Basic
-import HikmahUI
+import "."
 
 Rectangle {
     id: root
@@ -19,7 +18,7 @@ Rectangle {
         id: labelItem
         anchors.centerIn: parent
         text: root.label
-        color: root.filled ? Theme.onPrimary : Theme.onSurface
+        color: root.filled ? Theme.textOnPrimary : Theme.textOnSurface
         font.pixelSize: 13
         font.weight: Font.Medium
     }
