@@ -1,0 +1,43 @@
+{
+    "name": "default",
+    "mode": "dark",
+    "colors": {
+        "surface": "#111318",
+        "surfaceDim": "#111318",
+        "surfaceBright": "#37393e",
+        "surfaceContainerLowest": "#0c0e13",
+        "surfaceContainerLow": "#191c20",
+        "surfaceContainer": "#1d2024",
+        "surfaceContainerHigh": "#282a2f",
+        "surfaceContainerHighest": "#33353a",
+        "onSurface": "#e2e2e9",
+        "onSurfaceVariant": "#c4c6d0",
+        "primary": "#a8c7fa",
+        "onPrimary": "#00315f",
+        "primaryContainer": "#004a8a",
+        "onPrimaryContainer": "#d6e3ff",
+        "secondary": "#bfc6dc",
+        "onSecondary": "#293042",
+        "tertiary": "#debcdf",
+        "onTertiary": "#3f2844",
+        "error": "#ffb4ab",
+        "onError": "#690005",
+        "outline": "#8e9099",
+        "outlineVariant": "#44474f",
+        "shadow": "#000000",
+        "scrim": "#000000"
+    },
+    "shape": {
+        "cornerNone": 0,
+        "cornerXs": 4,
+        "cornerSm": 8,
+        "cornerMd": 12,
+        "cornerLg": 16,
+        "cornerXl": 28,
+        "cornerFull": 9999
+    },
+    "motion": {
+        "springStiffness": 380,
+        "springDamping": 28
+    }
+}

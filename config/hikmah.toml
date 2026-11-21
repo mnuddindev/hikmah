@@ -1,0 +1,13 @@
+# Hikmah default config
+[general]
+theme = "default"
+log_level = "info"
+
+[bar]
+position = "top"       # top | bottom
+shape = "islands"      # islands | notches | full
+height = 40
+
+[clock]
+format = "%H:%M"
+date_format = "%a %d %b"
