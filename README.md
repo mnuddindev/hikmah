@@ -1,2 +1,1 @@
-# hikmah
 # Hikmah — WIP
